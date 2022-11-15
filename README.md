@@ -21,17 +21,17 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv/scripts/activate    
 ```
 
-2. Install requirements:
+4. Install requirements:
 ```
 pip install -r requirements.txt 
 ```
 
-3. Run tests:
+5. Run tests:
 ```
 pytest
 ```
 
-4. Run script:
+6. Run script:
 ```
 python main.py
 ```
