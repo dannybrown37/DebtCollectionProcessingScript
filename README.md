@@ -7,9 +7,15 @@ It was written as a code sample in about two hours.
 
 ## Instructions: Environment Setup and Running the Program
 
-0. Prerequisite is Python/pip 3.7+ (this sample project was developed with 3.11).
+1. Prerequisites are Python/pip 3.7+ (this sample project was developed with 3.11) and Git.
 
-1. Create a virtual environment and activate it:
+2. Clone this repo and cd into its directory in your terminal of choice:
+```
+git clone https://github.com/dannybrown37/DebtCollectionProcessingScript
+cd DebtCollectionProcessingScript
+```
+
+3. Create a virtual environment and activate it:
 ```
 python -m venv .venv    
 source .venv/bin/activate  # Windows: .venv/scripts/activate    
@@ -37,7 +43,7 @@ The bulk of my effort on this project was spent in trying to find the
 best way to coerce the float data points to Decimals, something I 
 accomplished but that I would have liked to do more elegantly. Decimals 
 were useful in this case for precision given that we are dealing with 
-monetary cacluations.
+monetary calcuations.
 
 Otherwise this was a pretty straightforward task where data was pulled
 from an API, foreign keys were used to relate entities with others,
